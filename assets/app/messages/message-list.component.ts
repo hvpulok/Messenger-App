@@ -21,12 +21,15 @@ import {MessageService} from "./message.service";
 })
 
 export class MessageListComponent implements OnInit{
-    messages: Message[] = [];
-
     constructor(private _messageService: MessageService) {}
-    // messages = this._messageService.getMessages();
+
+    messages: Message[];
 
     ngOnInit(){
-        this.messages = this._messageService.getMessages();
+        this._messageService.getMessages()
+            .subscribe(newMessages => {
+                this.messages = newMessages;
+                this._messageService.messages = newMessages;
+            })
     }
 }

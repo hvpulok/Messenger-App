@@ -16,6 +16,6 @@ bootstrap(
         provide(LocationStrategy, {useClass: HashLocationStrategy}),
         HTTP_PROVIDERS
 
-    ],
+    ]
 
 );
