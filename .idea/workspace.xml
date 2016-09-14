@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="50741ba6-7776-43fd-b5c9-2ff7d2ad2728" name="Default" comment="Feat: Add new user signup route to server and update related  auth service, component methods">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+    <list default="true" id="50741ba6-7776-43fd-b5c9-2ff7d2ad2728" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Readme.md" afterPath="$PROJECT_DIR$/Readme.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/auth/auth.service.ts" afterPath="$PROJECT_DIR$/assets/app/auth/auth.service.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/app/auth/logout.component.ts" afterPath="$PROJECT_DIR$/assets/app/auth/logout.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/js/app/bundle.js" afterPath="$PROJECT_DIR$/public/js/app/bundle.js" />
     </list>
     <ignored path="beta.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +31,8 @@
       <file leaf-file-name="messages.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/messages.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="39" selection-end-column="3" />
+            <state relative-caret-position="418">
+              <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="54" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -40,8 +41,8 @@
       <file leaf-file-name="users.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/routes/users.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+            <state relative-caret-position="440">
+              <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -50,8 +51,8 @@
       <file leaf-file-name="auth.service.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/auth/auth.service.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+            <state relative-caret-position="544">
+              <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -59,37 +60,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="logout.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/app/auth/logout.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="374">
+              <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+              <folding>
+                <element signature="e#1#54#0" expanded="true" />
+                <marker date="1473884306817" expanded="true" signature="245:423" ph="..." />
+                <marker date="1473884306817" expanded="true" signature="266:404" ph="..." />
+              </folding>
             </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Readme.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Readme.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="110">
-                <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-          <provider editor-type-id="MarkdownFxPreviewEditor">
-            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="signup.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/assets/app/auth/signup.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
+            <state relative-caret-position="314">
+              <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
               <folding>
                 <element signature="e#1#54#0" expanded="true" />
                 <element signature="e#405#2058#0" expanded="false" />
@@ -109,44 +98,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/auth/user.ts">
+      <file leaf-file-name="signin.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/app/auth/signin.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="boot.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/boot.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="message.service.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/assets/app/messages/message.service.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="22" selection-end-column="60" />
+            <state relative-caret-position="616">
+              <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding>
-                <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#0#53#0" expanded="true" />
+                <element signature="e#443#1468#0" expanded="false" />
+                <marker date="1473883889309" expanded="true" signature="537:1462" ph="..." />
+                <marker date="1473883889309" expanded="true" signature="603:1443" ph="..." />
+                <marker date="1473883889309" expanded="true" signature="644:902" ph="..." />
+                <marker date="1473883889309" expanded="true" signature="725:879" ph="..." />
+                <marker date="1473883889309" expanded="true" signature="943:1217" ph="..." />
+                <marker date="1473883889309" expanded="true" signature="1030:1194" ph="..." />
+                <marker date="1473883889309" expanded="true" signature="1242:1423" ph="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -164,11 +131,9 @@
         <option value="/Angular2HTML Fragment (header.component.ts:109).html" />
         <option value="/CSS Fragment (header.component.ts:424).css" />
         <option value="$PROJECT_DIR$/assets/app/messages/body.component.ts" />
-        <option value="$PROJECT_DIR$/assets/app/auth/logout.component.ts" />
         <option value="/Angular2HTML Fragment (signup.component.ts:109).html" />
         <option value="/Angular2HTML Fragment (authentication.component.ts:182).html" />
         <option value="$PROJECT_DIR$/assets/app/app.component.ts" />
-        <option value="$PROJECT_DIR$/assets/app/auth/signin.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/auth/authentication.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/header.component.ts" />
         <option value="$PROJECT_DIR$/assets/app/messages/message-list.component.ts" />
@@ -178,12 +143,14 @@
         <option value="$PROJECT_DIR$/routes/messages.js" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/assets/app/auth/user.ts" />
-        <option value="$PROJECT_DIR$/routes/users.js" />
         <option value="$PROJECT_DIR$/assets/app/boot.ts" />
         <option value="$PROJECT_DIR$/assets/app/auth/signup.component.ts" />
-        <option value="$PROJECT_DIR$/assets/app/auth/auth.service.ts" />
         <option value="$PROJECT_DIR$/Readme.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/routes/users.js" />
+        <option value="$PROJECT_DIR$/assets/app/auth/signin.component.ts" />
+        <option value="$PROJECT_DIR$/assets/app/auth/auth.service.ts" />
+        <option value="$PROJECT_DIR$/assets/app/auth/logout.component.ts" />
       </list>
     </option>
   </component>
@@ -219,7 +186,7 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1312" />
+    <option name="x" value="1313" />
     <option name="y" value="52" />
     <option name="width" value="1248" />
     <option name="height" value="1028" />
@@ -497,7 +464,7 @@
       <workItem from="1473172195013" duration="19000" />
       <workItem from="1473736807634" duration="4064000" />
       <workItem from="1473784714679" duration="8888000" />
-      <workItem from="1473877444056" duration="3717000" />
+      <workItem from="1473877444056" duration="6011000" />
     </task>
     <task id="LOCAL-00001" summary="Add custom property binding and event binding to message content">
       <created>1472620510349</created>
@@ -653,11 +620,25 @@
       <option name="project" value="LOCAL" />
       <updated>1473879930050</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Feat: Add new user signup route to server and update related  auth service, component methods">
+      <created>1473882061478</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1473882061478</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Feat: Add user signin route to server and update related  auth service, component methods">
+      <created>1473884128251</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1473884128251</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47265000" />
+    <option name="totallyTimeSpent" value="49559000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -669,11 +650,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1312" y="52" width="1248" height="1028" extended-state="4" />
+    <frame x="1313" y="52" width="1248" height="1028" extended-state="4" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21316873" sideWeight="0.50567263" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31346938" sideWeight="0.4943274" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31346938" sideWeight="0.4943274" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32903227" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21316873" sideWeight="0.50567263" order="2" side_tool="true" content_ui="tabs" />
@@ -767,7 +748,8 @@
     <MESSAGE value="Feat: Add edit messages route to server and related methods" />
     <MESSAGE value="Feat: Add Delete messages route to server and related methods" />
     <MESSAGE value="Feat: Add new user signup route to server and update related  auth service, component methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feat: Add new user signup route to server and update related  auth service, component methods" />
+    <MESSAGE value="Feat: Add user signin route to server and update related  auth service, component methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feat: Add user signin route to server and update related  auth service, component methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -789,7 +771,7 @@
         <state relative-caret-position="828">
           <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
           <folding>
-            <element signature="e#0#69#0" expanded="true" />
+            <element signature="e#0#69#0" expanded="false" />
             <marker date="1473796230443" expanded="true" signature="257:703" ph="..." />
             <marker date="1473796230443" expanded="true" signature="294:351" ph="..." />
             <marker date="1473796230443" expanded="true" signature="393:684" ph="..." />
@@ -863,14 +845,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#53#0" expanded="false" />
-            <marker date="1472769370087" expanded="true" signature="423:1348" ph="..." />
-            <marker date="1472769370087" expanded="true" signature="489:1329" ph="..." />
-            <marker date="1472769370087" expanded="true" signature="530:788" ph="..." />
-            <marker date="1472769370087" expanded="true" signature="611:765" ph="..." />
-            <marker date="1472769370087" expanded="true" signature="829:1103" ph="..." />
-            <marker date="1472769370087" expanded="true" signature="916:1080" ph="..." />
-            <marker date="1472769370087" expanded="true" signature="1128:1309" ph="..." />
+            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#443#1468#0" expanded="false" />
+            <marker date="1473883889309" expanded="true" signature="537:1462" ph="..." />
+            <marker date="1473883889309" expanded="true" signature="603:1443" ph="..." />
+            <marker date="1473883889309" expanded="true" signature="644:902" ph="..." />
+            <marker date="1473883889309" expanded="true" signature="725:879" ph="..." />
+            <marker date="1473883889309" expanded="true" signature="943:1217" ph="..." />
+            <marker date="1473883889309" expanded="true" signature="1030:1194" ph="..." />
+            <marker date="1473883889309" expanded="true" signature="1242:1423" ph="..." />
           </folding>
         </state>
       </provider>
@@ -894,7 +877,7 @@
         <state relative-caret-position="828">
           <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
           <folding>
-            <element signature="e#0#69#0" expanded="true" />
+            <element signature="e#0#69#0" expanded="false" />
             <marker date="1473796230443" expanded="true" signature="257:703" ph="..." />
             <marker date="1473796230443" expanded="true" signature="294:351" ph="..." />
             <marker date="1473796230443" expanded="true" signature="393:684" ph="..." />
@@ -968,14 +951,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#0#53#0" expanded="false" />
-            <marker date="1472769370087" expanded="true" signature="423:1348" ph="..." />
-            <marker date="1472769370087" expanded="true" signature="489:1329" ph="..." />
-            <marker date="1472769370087" expanded="true" signature="530:788" ph="..." />
-            <marker date="1472769370087" expanded="true" signature="611:765" ph="..." />
-            <marker date="1472769370087" expanded="true" signature="829:1103" ph="..." />
-            <marker date="1472769370087" expanded="true" signature="916:1080" ph="..." />
-            <marker date="1472769370087" expanded="true" signature="1128:1309" ph="..." />
+            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#443#1468#0" expanded="false" />
+            <marker date="1473883889309" expanded="true" signature="537:1462" ph="..." />
+            <marker date="1473883889309" expanded="true" signature="603:1443" ph="..." />
+            <marker date="1473883889309" expanded="true" signature="644:902" ph="..." />
+            <marker date="1473883889309" expanded="true" signature="725:879" ph="..." />
+            <marker date="1473883889309" expanded="true" signature="943:1217" ph="..." />
+            <marker date="1473883889309" expanded="true" signature="1030:1194" ph="..." />
+            <marker date="1473883889309" expanded="true" signature="1242:1423" ph="..." />
           </folding>
         </state>
       </provider>
@@ -999,7 +983,7 @@
         <state relative-caret-position="396">
           <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
           <folding>
-            <element signature="e#0#69#0" expanded="true" />
+            <element signature="e#0#69#0" expanded="false" />
             <marker date="1473796230443" expanded="true" signature="257:703" ph="..." />
             <marker date="1473796230443" expanded="true" signature="294:351" ph="..." />
             <marker date="1473796230443" expanded="true" signature="393:684" ph="..." />
@@ -1027,7 +1011,7 @@
         <state relative-caret-position="252">
           <caret line="14" column="22" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="22" />
           <folding>
-            <element signature="e#0#69#0" expanded="true" />
+            <element signature="e#0#69#0" expanded="false" />
             <marker date="1473796230443" expanded="true" signature="257:703" ph="..." />
             <marker date="1473796230443" expanded="true" signature="294:351" ph="..." />
             <marker date="1473796230443" expanded="true" signature="393:684" ph="..." />
@@ -1075,30 +1059,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/auth/logout.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/auth/signin.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1100">
-          <caret line="54" column="0" selection-start-line="54" selection-start-column="0" selection-end-line="56" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#53#0" expanded="false" />
-            <marker date="1472769370087" expanded="true" signature="423:1348" ph="..." />
-            <marker date="1472769370087" expanded="true" signature="489:1329" ph="..." />
-            <marker date="1472769370087" expanded="true" signature="530:788" ph="..." />
-            <marker date="1472769370087" expanded="true" signature="611:765" ph="..." />
-            <marker date="1472769370087" expanded="true" signature="829:1103" ph="..." />
-            <marker date="1472769370087" expanded="true" signature="916:1080" ph="..." />
-            <marker date="1472769370087" expanded="true" signature="1128:1309" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1166,7 +1126,7 @@
         <state relative-caret-position="286">
           <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="false" />
             <marker date="1473791079630" expanded="true" signature="288:1190" ph="..." />
             <marker date="1473791079630" expanded="true" signature="356:1167" ph="..." />
             <marker date="1473791079630" expanded="true" signature="401:761" ph="..." />
@@ -1182,7 +1142,7 @@
         <state relative-caret-position="1100">
           <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
           <folding>
-            <element signature="e#0#69#0" expanded="true" />
+            <element signature="e#0#69#0" expanded="false" />
             <marker date="1473796230443" expanded="true" signature="257:703" ph="..." />
             <marker date="1473796230443" expanded="true" signature="294:351" ph="..." />
             <marker date="1473796230443" expanded="true" signature="393:684" ph="..." />
@@ -1210,22 +1170,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/messages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="39" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/app/messages/message.service.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
@@ -1233,22 +1177,6 @@
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/auth/user.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1265,38 +1193,6 @@
         <state relative-caret-position="154">
           <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/auth/signup.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="69" column="23" selection-start-line="69" selection-start-column="23" selection-end-line="69" selection-end-column="23" />
-          <folding>
-            <element signature="e#1#54#0" expanded="true" />
-            <element signature="e#405#2058#0" expanded="false" />
-            <marker date="1473879215915" expanded="true" signature="499:2052" ph="..." />
-            <marker date="1473879215915" expanded="true" signature="565:2033" ph="..." />
-            <marker date="1473879215915" expanded="true" signature="606:881" ph="..." />
-            <marker date="1473879215915" expanded="true" signature="696:858" ph="..." />
-            <marker date="1473879215915" expanded="true" signature="922:1193" ph="..." />
-            <marker date="1473879215915" expanded="true" signature="1010:1170" ph="..." />
-            <marker date="1473879215915" expanded="true" signature="1234:1492" ph="..." />
-            <marker date="1473879215915" expanded="true" signature="1315:1469" ph="..." />
-            <marker date="1473879215915" expanded="true" signature="1533:1807" ph="..." />
-            <marker date="1473879215915" expanded="true" signature="1620:1784" ph="..." />
-            <marker date="1473879215915" expanded="true" signature="1832:2013" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/app/auth/auth.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1321,9 +1217,103 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/messages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="54" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-132">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/auth/user.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="59" column="27" selection-start-line="59" selection-start-column="27" selection-end-line="59" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/auth/signup.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="66" column="10" selection-start-line="66" selection-start-column="10" selection-end-line="66" selection-end-column="10" />
+          <folding>
+            <element signature="e#1#54#0" expanded="true" />
+            <element signature="e#405#2058#0" expanded="false" />
+            <marker date="1473879215915" expanded="true" signature="499:2052" ph="..." />
+            <marker date="1473879215915" expanded="true" signature="565:2033" ph="..." />
+            <marker date="1473879215915" expanded="true" signature="606:881" ph="..." />
+            <marker date="1473879215915" expanded="true" signature="696:858" ph="..." />
+            <marker date="1473879215915" expanded="true" signature="922:1193" ph="..." />
+            <marker date="1473879215915" expanded="true" signature="1010:1170" ph="..." />
+            <marker date="1473879215915" expanded="true" signature="1234:1492" ph="..." />
+            <marker date="1473879215915" expanded="true" signature="1315:1469" ph="..." />
+            <marker date="1473879215915" expanded="true" signature="1533:1807" ph="..." />
+            <marker date="1473879215915" expanded="true" signature="1620:1784" ph="..." />
+            <marker date="1473879215915" expanded="true" signature="1832:2013" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/auth/signin.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#443#1468#0" expanded="false" />
+            <marker date="1473883889309" expanded="true" signature="537:1462" ph="..." />
+            <marker date="1473883889309" expanded="true" signature="603:1443" ph="..." />
+            <marker date="1473883889309" expanded="true" signature="644:902" ph="..." />
+            <marker date="1473883889309" expanded="true" signature="725:879" ph="..." />
+            <marker date="1473883889309" expanded="true" signature="943:1217" ph="..." />
+            <marker date="1473883889309" expanded="true" signature="1030:1194" ph="..." />
+            <marker date="1473883889309" expanded="true" signature="1242:1423" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/auth/auth.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/app/auth/logout.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="19" column="2" selection-start-line="19" selection-start-column="2" selection-end-line="19" selection-end-column="2" />
+          <folding>
+            <element signature="e#1#54#0" expanded="true" />
+            <marker date="1473884306817" expanded="true" signature="245:423" ph="..." />
+            <marker date="1473884306817" expanded="true" signature="266:404" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
