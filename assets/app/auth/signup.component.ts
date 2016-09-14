@@ -4,6 +4,10 @@ import {OnInit} from "angular2/src/core/linker/interfaces";
 import {ControlGroup, Control} from "angular2/src/common/forms/model";
 import {FormBuilder} from "angular2/src/common/forms/form_builder";
 import {Validators} from "angular2/src/common/forms/validators";
+import {User} from "./user";
+import {AuthService} from "./auth.service";
+
+
 @Component({
     selector: 'my-signup',
     template: `
@@ -50,11 +54,25 @@ import {Validators} from "angular2/src/common/forms/validators";
 
 export class SignupComponent implements OnInit{
     myForm: ControlGroup;
-    constructor(private _fb:FormBuilder){}
+    constructor(private _fb:FormBuilder, private _authService : AuthService){}
 
     onSubmit(){
-        console.log(this.myForm.value);
+        // console.log(this.myForm.value);
+
+        const user = new User(
+            this.myForm.value.email,
+            this.myForm.value.password,
+            this.myForm.value.firstName,
+            this.myForm.value.lastName
+        );
+
+        this._authService.signup(user)
+            .subscribe(
+                data => console.log(data),
+                error => console.error(error)
+            )
     }
+
 
     ngOnInit(){
         this.myForm = this._fb.group({
