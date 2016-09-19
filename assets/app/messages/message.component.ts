@@ -13,7 +13,7 @@ import {MessageService} from "./message.service";
                 <div class="author">
                     {{ message.username }}
                 </div>
-                <div class="config">
+                <div class="config" *ngIf="belongsToUser()"> 
                     <a (click)="onEdit()">Edit</a>
                     <a (click)="onDelete()">Delete</a>
                 </div>
@@ -51,6 +51,10 @@ export class MessageComponent {
                 data => console.log(data),
                 error => console.log(error)
         );
+    }
+
+    belongsToUser(){
+        return localStorage.getItem('userId') == this.message.userId;
     }
 
 
