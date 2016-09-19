@@ -50,14 +50,24 @@ editMessage(message: Message){
 updateMessage(message: Message){
     const body = JSON.stringify(message);
     const headers = new Headers({'Content-Type' : 'application/json'});
-    return this._http.patch('/message/' + message.messageId, body, {headers : headers})
+    var token = localStorage.getItem('token');
+    if(token)
+        token = '?token=' + localStorage.getItem('token');
+    else
+        token = "";
+    return this._http.patch('/message/' + message.messageId + token, body, {headers : headers})
         .map(response => response.json())
         .catch(error => Observable.throw(error.json()));
 }
 
 deleteMessage(message: Message){
     this.messages.splice(this.messages.indexOf(message),1);
-    return this._http.delete('/message/' + message.messageId)
+    var token = localStorage.getItem('token');
+    if(token)
+        token = '?token=' + localStorage.getItem('token');
+    else
+        token = "";
+    return this._http.delete('/message/' + message.messageId + token)
         .map(response => response.json())
         .catch(error => Observable.throw(error.json()));
     }
