@@ -14,7 +14,13 @@ export class MessageService{
     addMessage(message: Message){
         const body = JSON.stringify(message);
         const headers = new Headers({'Content-Type' : 'application/json'});
-        return this._http.post('/message', body, {headers: headers})
+        var token = localStorage.getItem('token');
+        if(token)
+            token = '?token=' + localStorage.getItem('token');
+        else
+            token = "";
+
+        return this._http.post('/message' + token, body, {headers: headers})
             .map(response => {
                 const data = response.json().obj;
                 let message = new Message(data.content, data._id, 'Dummy', null);
